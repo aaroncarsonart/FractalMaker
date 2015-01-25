@@ -1,0 +1,7 @@
+# OS Files #
+.DS_Store
+.Trashes
+.Spotlight-V100
+
+# Java class files #
+*.class
