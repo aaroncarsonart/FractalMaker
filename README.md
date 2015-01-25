@@ -4,8 +4,15 @@
 *** Author:   *** Aaron Carson  
 *** Language: *** Java  
 
--------------------------------------------------------------------------------------
-![Alt text](fractal.png)
+## Quick Start  
+From the command line, just download the code, compile and run:
+	javac FractalMaker.java
+	java FractalMaker
+
+to make this:
+
+![Alt text](fractal.png) 
+
 ##Description
 Do cool things with fractals!  Play with pixel data with a single Java source file.  It's really easy: the pixel data is stored as a 1-dimensional integer array.  So, most of the pixel data is edited like this:
 
@@ -24,7 +31,7 @@ Do cool things with fractals!  Play with pixel data with a single Java source fi
 	}
 }***
 
-This this double for-loop walks through each pixel, and draws the image above.  I have written a number of methods which make cool images like this, that can be called in the method `render(Graphics2D g)`.  Try commenting different methods out to get fun results! (only the last called method will run):
+This this double for-loop walks through each pixel, and draws the image above.  I have written a number of methods which make cool images like this, that can be called in the method `render(Graphics2D g)`.  Try modifying the code by commenting different methods out to get fun results! (only the last called method will run):
 
 	public void render(Graphics2D g) {
 		// ***********************************
