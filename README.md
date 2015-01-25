@@ -1,8 +1,8 @@
 # FractalMaker
 #### An Java project I created by accident that happens to be really cool, so I'm making it open source.
 
-*** Author:   *** Aaron Carson  
-*** Language: *** Java  
+** Author:   ** Aaron Carson  
+** Language: ** Java  
 
 ## Quick Start  
 From the command line, just download the code, compile and run:
@@ -25,11 +25,13 @@ Do cool things with fractals!  Play with pixel data with a single Java source fi
 	}
 
 
-***for (int x = 0; x < image.getWidth(); x++) {
+```java 
+for (int x = 0; x < image.getWidth(); x++) {
 	for (int y = 0; y < image.getHeight(); y++) {
 		pixels[x + y * getWidth()] = (x ^ y) / 2;
 	}
-}***
+}
+```
 
 This this double for-loop walks through each pixel, and draws the image above.  I have written a number of methods which make cool images like this, that can be called in the method `render(Graphics2D g)`.  Try modifying the code by commenting different methods out to get fun results! (only the last called method will run):
 
