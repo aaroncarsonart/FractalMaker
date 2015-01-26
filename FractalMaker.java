@@ -323,4 +323,11 @@ public class FractalMaker extends JPanel
 			}
 		});
 	}
+
+    /**
+     * This is a test method that was written with vim.
+     */
+    public static void testMethod(){
+        System.out.println("I wrote this method with vim.");
+    }
 }
