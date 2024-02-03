@@ -1,7 +1,12 @@
-# OS Files #
+# OS Files
 .DS_Store
 .Trashes
 .Spotlight-V100
 
-# Java class files #
+# Java class files
 *.class
+
+# Intellij files
+*.iml
+.idea/
+out/
